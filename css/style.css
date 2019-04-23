@@ -1,0 +1,33 @@
+img{
+    border-radius: 80%;
+    width: 200px;
+}
+
+#background{
+    background-color: cadetblue;
+}
+
+#name{
+    padding-top: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+#links{
+    padding-top: 20px; 
+}
+a{
+    padding: 5px;
+}
+
+#linkedIn{
+    color: white;
+}
+
+#github{
+    color: black;
+}
+
+#so{
+    color: orange;
+}
