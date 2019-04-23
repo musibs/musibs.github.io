@@ -1,9 +1,3 @@
 # musibs.github.io
 
-My Personal Website & Portfolio.
-
-# Contact
-
-Gmail
-
-# Blog
+My Personal Website & Portfolio
