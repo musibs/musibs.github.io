@@ -61,8 +61,8 @@ font-family: 'Rokkitt', serif;
     /*background-image: linear-gradient(to right, #20B2AA, #008080);*/
     background-image: linear-gradient(to right, #a517ba, #5f1782);
     color: #fff;
-    padding-top: 5%;
-    padding-bottom: 13%;
+    padding-top: 100px;
+    padding-bottom: 200px;
 }
 
 .landing-box{
@@ -100,7 +100,7 @@ font-family: 'Rokkitt', serif;
 
 /*----------------------------- About Me ------------------------*/
 #about{
-    padding-top: 80px;
+    padding-top: 100px;
     padding-bottom: 250px;
 }
 .profile-img{
@@ -142,10 +142,13 @@ font-family: 'Rokkitt', serif;
 #work{
     background-image: linear-gradient(to right, #a517ba, #5f1782);
     color: #fff;
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding-top: 100px;
+    padding-bottom: 250px;
 }
 
+#work .main-row{
+    padding-top: 100px;
+}
 .title-white::before{
     content: '';
     background: #ffffff;
@@ -169,8 +172,19 @@ font-family: 'Rokkitt', serif;
     transform: translateY(9px);
 }
 
+#work h3{
+    padding-bottom: 5px;
+    font-weight: bold;
+}
+
+.list-inline-item{
+    font-weight: bold;
+    font-size: 15px;
+}
+
 .work-description{
     padding-left: 2px;
+    padding-top: 20px;
     list-style: none;
 }
 
@@ -181,12 +195,13 @@ font-family: 'Rokkitt', serif;
     height: 0.1px;
     width: 100%;
     background: #ffffff;
+    margin-bottom: 30px;
 }
 
 /*---------------------- Education -----------------------------*/
 #education{
-    padding-top: 50px;
-    padding-bottom: 230px;
+    padding-top: 100px;
+    padding-bottom: 150px;
 }
 
 #education hr{
@@ -194,3 +209,47 @@ font-family: 'Rokkitt', serif;
     width: 100%;
     background: #5f1782;
 }
+
+/*---------------- Skills ---------------------------------*/
+
+#skills{
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+
+#skills .row{
+    padding-top: 60px;
+}
+
+#skills .card-title{
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-family: 'Acme', sans-serif;
+}
+
+#skills .card-body{
+    background: #a517ba;
+    color: #ffffff;
+    
+}
+
+#skills .cards hr{
+    color: #ffffff;
+    padding: 200px;
+
+
+}
+#skills .progress{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 40px;
+    background-color: #5f1782;
+}
+
+#skills .progress-bar{
+    background-color:#ffffff !important;
+    color: #5f1782 !important;
+    font-size: 15px !important;
+}
+
