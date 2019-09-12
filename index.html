@@ -5,32 +5,215 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Somnath Musib</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet"  href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Acme|Bree+Serif|Domine|Rokkitt&display=swap" rel="stylesheet">
 </head>
 <body>
+    <section id="header">
+        <nav class="navbar navbar-expand-lg">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"><i class="fa fa-bars"></i></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mx-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">HOME</a>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="#about">ABOUT</a></li>
+                <li class="nav-item"><a class="nav-link" href="#work">WORK</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">EDUCATION</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">SKILLS</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">COURSES</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">PORTFOLIO</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">REFERENCES</a></li>
+              </ul>
+            </div>
+          </nav>
+    </section>
+    <section id="landing">
+        <div class="container">
+            <div class="row landing-box">
+                <div class="col-md-12">
+                    <h1>Somnath Musib</h1>
+                    <p>Programmer. Blogger. Traveller</p>
+                    <button type="button" class="btn btn-outline-primary">
+                      <a href="files/Somnath_Musib_Resume.pdf" target="_blank" rel="noopener noreferrer">Download Resume</a>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="about">
+      <div class="container">
+        <h2 class="title text-center">About Me</h2>
+        <div class="row about-box">
+          <div class="col-md-4">
+            <img src="image/profile.jpg" class="img-fluid float-right profile-img">
+          </div>
+          <div class="col-md-8">
+            <p>Conscientious, results-driven, articulate and analytical software engineer with many years of professional exposure in data-driven software 
+              engineering teams focusing on roles ranging from backend development of high availability, 
+              distributed systems. Strong in architectural research, software design and agile team management,
+               having served as a tech lead at multiple companies.</p>
 
-   <div class="container-fluid">
-        <div class="jumbotron text-center" id="background">
-            <div id="image">
-                <img src="image/profile.jpg" class="img-rounded"
-                alt="Profile Picture">
+            <p>Excellent written and verbal communication skills. Interested in challenging technical leadership roles in scaling distributed web applications</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="work">
+      <div class="container">
+        <h2 class="title-white text-center">Work Experience</h2>
+        <div class="row">
+          <div class="col-md-2"></div>
+          <div class="col-md-10">
+            <div class="row">
+                <h3>Reserve Bank of Australia - Core Banking Implementation</h3>
+                <ul class="list-inline">
+                  <li class="list-inline-item">Tata Consultancy Services Ltd</li>
+                  <li class="list-inline-item">&bull;</li>
+                  <li class="list-inline-item">Integration Lead</li>
+                  <li class="list-inline-item">&bull;</li>
+                  <li class="list-inline-item">Sydney, Australia</li>
+                  <li class="list-inline-item">&bull;</li>
+                  <li class="list-inline-item">Mar 2017 - Present</li>
+                </ul>
+                <ul class="work-description">
+                  <li><i class="fa fa-check-circle tick"></i>Requirement analysis and development of Integration flows for various financial file formats for validation and transaction processing. </li>
+                  <li><i class="fa fa-check-circle tick"></i>Analysis and implementation of Basic Authentication for SOAP web services</li>
+                  <li><i class="fa fa-check-circle tick"></i>Managing 10 non-production environments and production environment for the program</li>
+                  <li><i class="fa fa-check-circle tick"></i>Requirement analysis from bank contact management system to design a unique generic reporting solution</li>
+                  <li><i class="fa fa-check-circle tick"></i>Performance tuning of file processing to increase the transactions per second (TPS) and high volume
+                      concurrent file processing using Eclipse MAT and JProfiler</li>
+                  <li><i class="fa fa-check-circle tick"></i>Development of Jasper reports to generate financial reports through Spring batch framework</li>
+                </ul>
+                <hr />
             </div>
-            <div id="name">
-                <h1> Somnath Musib </h1>
+            <div class="row">
+                <h3>Bank Yahav - Core Banking Implementation</h3>
+                <ul class="list-inline">
+                  <li class="list-inline-item">Tata Consultancy Services Ltd</li>
+                  <li class="list-inline-item">&bull;</li>
+                  <li class="list-inline-item">Integration Engineer</li>
+                  <li class="list-inline-item">&bull;</li>
+                  <li class="list-inline-item">Bengaluru, India</li>
+                  <li class="list-inline-item">&bull;</li>
+                  <li class="list-inline-item">Nov 2016 - Feb 2017</li>
+                </ul>
+                <ul class="work-description">
+                  <li><i class="fa fa-check-circle tick"></i>Requirement analysis and development of Integration flows for various financial file formats for validation and transaction processing. </li>
+                  <li><i class="fa fa-check-circle tick"></i>Analysis and implementation of Basic Authentication for SOAP web services</li>
+                  <li><i class="fa fa-check-circle tick"></i>Managing 10 non-production environments and production environment for the program</li>
+                  <li><i class="fa fa-check-circle tick"></i>Requirement analysis from bank contact management system to design a unique generic reporting solution</li>
+                  <li><i class="fa fa-check-circle tick"></i>Performance tuning of file processing to increase the transactions per second (TPS) and high volume
+                      concurrent file processing using Eclipse MAT and JProfiler</li>
+                  <li><i class="fa fa-check-circle tick"></i>Development of Jasper reports to generate financial reports through Spring batch framework</li>
+                </ul>
+                <hr />
             </div>
-            <div id="links">
-                <a id="linkedIn" href="https://linkedin.com/in/musibs"><i class="fa fa-linkedin-square" style="font-size:36px"></i></a>
-                <a id="github" href="https://github.com/musibs"><i class="fa fa-github" style="font-size:36px"></i></a>
-                <a id="so" href="https://stackoverflow.com/users/2051126/somnath-musib"><i class="fa fa-stack-overflow" style="font-size:36px"></i></a>
-                <a id="github" href="https://medium.com/@musibs"><i class="fa fa-medium" style="font-size:36px"></i></a>
+            <div class="row">
+                <h3>Credit Union Australia - New Payments Platform</h3>
+                <ul class="list-inline">
+                  <li class="list-inline-item">Tata Consultancy Services Ltd</li>
+                  <li class="list-inline-item">&bull;</li>
+                  <li class="list-inline-item">Integration Engineer</li>
+                  <li class="list-inline-item">&bull;</li>
+                  <li class="list-inline-item">Bengaluru, India</li>
+                  <li class="list-inline-item">&bull;</li>
+                  <li class="list-inline-item">Aug 2016 - Oct 2016</li>
+                </ul>
+                <ul class="work-description">
+                  <li><i class="fa fa-check-circle tick"></i>Requirement analysis and development of Integration flows for various financial file formats for validation and transaction processing. </li>
+                  <li><i class="fa fa-check-circle tick"></i>Analysis and implementation of Basic Authentication for SOAP web services</li>
+                  <li><i class="fa fa-check-circle tick"></i>Managing 10 non-production environments and production environment for the program</li>
+                  <li><i class="fa fa-check-circle tick"></i>Requirement analysis from bank contact management system to design a unique generic reporting solution</li>
+                  <li><i class="fa fa-check-circle tick"></i>Performance tuning of file processing to increase the transactions per second (TPS) and high volume
+                      concurrent file processing using Eclipse MAT and JProfiler</li>
+                  <li><i class="fa fa-check-circle tick"></i>Development of Jasper reports to generate financial reports through Spring batch framework</li>
+                </ul>
+                <hr />
             </div>
+            <div class="row">
+                <h3>TCS BaNCS - Product Developement</h3>
+                <ul class="list-inline">
+                  <li class="list-inline-item">Tata Consultancy Services Ltd</li>
+                  <li class="list-inline-item">&bull;</li>
+                  <li class="list-inline-item">Integration Engineer</li>
+                  <li class="list-inline-item">&bull;</li>
+                  <li class="list-inline-item">Bengaluru, India</li>
+                  <li class="list-inline-item">&bull;</li>
+                  <li class="list-inline-item">Aug 2016 - Oct 2016</li>
+                </ul>
+                <ul class="work-description">
+                  <li><i class="fa fa-check-circle tick"></i>Requirement analysis and development of Integration flows for various financial file formats for validation and transaction processing. </li>
+                  <li><i class="fa fa-check-circle tick"></i>Analysis and implementation of Basic Authentication for SOAP web services</li>
+                  <li><i class="fa fa-check-circle tick"></i>Managing 10 non-production environments and production environment for the program</li>
+                  <li><i class="fa fa-check-circle tick"></i>Requirement analysis from bank contact management system to design a unique generic reporting solution</li>
+                  <li><i class="fa fa-check-circle tick"></i>Performance tuning of file processing to increase the transactions per second (TPS) and high volume
+                      concurrent file processing using Eclipse MAT and JProfiler</li>
+                  <li><i class="fa fa-check-circle tick"></i>Development of Jasper reports to generate financial reports through Spring batch framework</li>
+                </ul>
+                <hr />
             </div>
-    </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!------------------ Education ----------------------->
+    <section id="education">
+      <div class="container">
+          <h2 class="title text-center">Education</h2>
+          <div class="row">
+              <div class="col-md-4"></div>
+              <div class="col-md-8">
+                <div class="row">
+                    <h3>West Bengal University of Technology</h3>
+                    <ul class="list-inline">
+                      <li class="list-inline-item">B.Tech in Computer Science</li>
+                      <li class="list-inline-item">&bull;</li>
+                      <li class="list-inline-item">West Bengal, India</li>
+                      <li class="list-inline-item">&bull;</li>
+                      <li class="list-inline-item">Aug 2007 - Jul 2011</li>
+                    </ul>
+                    <hr />
+                </div>
+                <div class="row">
+                    <h3>Kamalpur Netaji High School</h3>
+                    <ul class="list-inline">
+                      <li class="list-inline-item">Higher Secondary</li>
+                      <li class="list-inline-item">&bull;</li>
+                      <li class="list-inline-item">West Bengal, India</li>
+                      <li class="list-inline-item">&bull;</li>
+                      <li class="list-inline-item">Aug 2005 - Jul 2007</li>
+                    </ul>
+                    <hr />
+                </div>
+              </div>
+          </div>
+      </div>
+    </section>
+    <section id="skills">
+
+    </section>
+    <section id="portfolio">
+
+    </section>
+    <section id="references">
+        <div class="container">
+          <div class="row offset-2">
+            <div class="col-md-5">
+                Ref
+            </div>
+            <div class="col-md-5">
+              Ref
+            </div>
+          </div>
+        </div>
+    </section>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
